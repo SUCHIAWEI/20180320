@@ -9,6 +9,10 @@ public class product {
     }
     public void  showInto(){
 
-        System.out.println(this.name+"\t"+this.price+"\t"+this.amount);
+        System.out.println(this.name+"\t"+this.price+"\t"+" "+this.amount+"\t"+"    "+price*amount);
     }
+    public float getsum(){
+        return  price*amount;
+    }
+
 }
